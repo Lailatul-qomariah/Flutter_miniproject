@@ -272,9 +272,8 @@ class _ArticlePageState extends State<ArticlePage> {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => ArticleDetailPage(
-                                     
-                                      articleId: "${articles.sublist(articles.length - 5)[0].id}",
-,
+                                      articleId:
+                                          "${articles.sublist(articles.length - 5)[0].id}",
                                     )));
                       },
                       child: Container(
@@ -282,8 +281,8 @@ class _ArticlePageState extends State<ArticlePage> {
                         child: ArticleCard(
                             article: articles.sublist(articles.length - 5)[0]
 
-                          //article: articles[4], //ngambil data index ke 4
-                        ),
+                            //article: articles[4], //ngambil data index ke 4
+                            ),
                       ),
                     ),
                   ],
